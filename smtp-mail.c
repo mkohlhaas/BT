@@ -1,4 +1,3 @@
-#define _GNU_SOURCE
 #include "credentials.h"
 #include "mdb.h"
 #include <curl/curl.h>
