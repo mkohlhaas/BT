@@ -1,0 +1,11 @@
+{
+  "name":                   "BT",
+  "version":                "0.1.0",
+  "repo":                   "mkohlhaas/BT",
+  "dependencies": {
+    "littlstar/asprintf.c": "*",
+    "littlstar/b64.c":      "*"
+  },
+  "install":                "make install",
+  "uninstall":              "make uninstall"
+}

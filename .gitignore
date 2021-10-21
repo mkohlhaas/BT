@@ -1,2 +1,6 @@
+**/*.o
+deps/
+.cache/
 credentials.h
 smtp-mail
+compile_commands.json
