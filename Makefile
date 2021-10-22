@@ -22,7 +22,7 @@ $(TARGET): $(OBJS)
 
 .PHONY:
 clean:
-	rm -f $(OBJS)
+	rm -f $(OBJS) $(TARGET)
 
 .PHONY:
 install: $(TARGET)
