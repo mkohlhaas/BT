@@ -51,7 +51,7 @@ send_mail(char* personal_salut, char* email)
     curl_easy_setopt(curl, CURLOPT_UPLOAD      , 1L);
     curl_easy_setopt(curl, CURLOPT_VERBOSE     , 1L);
 
-    error = curl_easy_perform(curl); // Send the message
+    error = curl_easy_perform(curl);
     if (error) {
       fprintf(stderr, "curl_easy_perform() failed: %s\n", curl_easy_strerror(error));
       exit(error);

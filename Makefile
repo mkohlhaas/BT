@@ -32,4 +32,4 @@ install: $(TARGET)
 uninstall: $(PREFIX)/$(TARGET)
 	rm -f $(PREFIX)/$(TARGET)
 
-src/smtp-mail.o: src/smtp-mail.h src/mdb.h
+src/smtp-mail.o: src/smtp-mail.h src/mdb.h src/credentials.h

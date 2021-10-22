@@ -19,11 +19,13 @@ typedef struct curl_slist CurlSList;
 
 char* payload_text;
 
-char FROM[]         = "knock knock...<knock@myopendoor.de>";
-char MESSAGE_ID[]   = "<dcd7cb36-11db-487a-9f3a-e652a9458efd@rfcpedant.example.org>" ;
+// char FROM[]         = "knock knock...<knock@myopendoor.de>";
+char FROM[]         = "<kohlhaas.michael@mein.gmx>";
+// char MESSAGE_ID[]   = "<dcd7cb36-11db-487a-9f3a-e652a9458efd@rfcpedant.example.org>" ;
 char SUBJECT[]      = "Verlängerung der epidemischen Lage von nationaler Tragweite";
 char SALUTATION[]   = "Guten Tag";
 char EMAIL_DOMAIN[] = "bundestag.de";
+// char EMAIL_DOMAIN[] = "chammy.info";
 char BODY[]         = 
 ",\r\n\r\n\
 am 24. November endet die Wirkung der epidemischen Lage von nationaler Tragweite.\r\n\r\n\
